@@ -11,8 +11,8 @@ from googletrans import Translator
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
 
-client = LINE()
-#client = LINE("")
+#client = LINE()
+client = LINE("EtJGqnNsntw6gZhqu6tf.4YSrMg2oNLZ3c2qS97Qi+W.hRyhG3PGubromtC0lgZoD2K7tT9Vldz2DSPDOcHyPlc= ")
 clientMid = client.profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
