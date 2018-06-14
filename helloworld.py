@@ -13,7 +13,7 @@ import time, random, sys, json, codecs, threading, glob, re, string, os, request
 
 #client = LINE()
 client = LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
-clientMid = .profile.mid
+clientMid = profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
 clientPoll = OEPoll(client)
