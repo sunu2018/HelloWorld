@@ -12,8 +12,8 @@ from humanfriendly import format_timespan, format_size, format_number, format_le
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, six, ast, pytz, urllib, urllib3, urllib.parse, traceback, atexit
 
 #client = LINE()
-client = LINE("EtJGqnNsntw6gZhqu6tf.4YSrMg2oNLZ3c2qS97Qi+W.hRyhG3PGubromtC0lgZoD2K7tT9Vldz2DSPDOcHyPlc= ")
-clientMid = client.profile.mid
+client = LINE("EtHO8rZgTw1q6juRoVvf.4YSrMg2oNLZ3c2qS97Qi+W.k2TeLOz1HTtz2jJ+CuaaDHN+R9wcNMOY2hfRLRA6GvA=")
+clientMid = .profile.mid
 clientProfile = client.getProfile()
 clientSettings = client.getSettings()
 clientPoll = OEPoll(client)
